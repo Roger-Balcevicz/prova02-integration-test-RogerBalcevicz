@@ -51,17 +51,9 @@ Cenários:
 
 Obs: os status 500 (cenário 8) e 201 no DELETE (cenário 12) são o que a API retorna nesses casos, por isso os testes esperam esses códigos.
 
-### APIs under test
+### API under test
 
 - [Restful Booker](https://restful-booker.herokuapp.com/apidoc/index.html)
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
-- [Toolshop API](https://api.practicesoftwaretesting.com/api/documentation)
-- [Deck of Cards](https://deckofcardsapi.com/)
-- [http bin](http://httpbin.org/)
-- [rick and morty api](https://rickandmortyapi.com/documentation/#rest)
-- [D&D Combat API](https://dnd-combat-api-7f3660dcecb1.herokuapp.com/api)
-- [Petstore](https://petstore.swagger.io/#/)
-- [ServeRest](https://serverest.dev/#/)
 
 ### Docs
 
