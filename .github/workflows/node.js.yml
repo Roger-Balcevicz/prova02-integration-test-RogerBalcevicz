@@ -2,11 +2,10 @@ name: Node.js CI
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
-  schedule:
-    - cron: '0 12 * * *'
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.0
-      - name: Use Node.js 21
+      - name: Use Node.js 22
         uses: actions/setup-node@v7.0.0
         with:
           node-version: 22
           cache: 'npm'
-      - run: npm install
+      - run: npm ci
       - run: npm test
 
   sonarcloud:

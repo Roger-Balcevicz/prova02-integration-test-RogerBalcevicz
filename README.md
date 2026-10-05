@@ -1,40 +1,41 @@
-# API test automation with Jest and PactumJS
+# Prova 02 - Integration Tests
 
-> Simple integration between JestJS and PactumJS.
+> Testes de integração de API com JestJS e PactumJS.
 
 ## GitHub Actions
 
-[![Node.js CI](https://github.com/ugioni/integration-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/integration-tests-jest/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/Roger-Balcevicz/prova02-integration-test-RogerBalcevicz/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Roger-Balcevicz/prova02-integration-test-RogerBalcevicz/actions/workflows/node.js.yml)
 
 ## SonarCloud
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_integration-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_integration-tests-jest)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Roger-Balcevicz_prova02-integration-test-RogerBalcevicz&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Roger-Balcevicz_prova02-integration-test-RogerBalcevicz)
 
-# Getting Started
+## Getting Started
 
-### Pactum docs:
- - [PactumJS](https://pactumjs.github.io/)
+### Prerequisites
 
-### Prerequisites:
- - NodeJS `v22`
+- NodeJS `v22`
 
 ### How to run?
 
 Inside of the project folder run:
 
- 1. `npm install --save-dev`
- 1. `npm run ci`
+1. `npm install`
+1. `npm run ci`
 
 After that you should see a `./output` folder with some `HTML` reports.
 
-### Docs to Api under tests: 
- - [Dummyjson](https://dummyjson.com/docs)
- - [Gorest](https://gorest.co.in/)
- - [Toolshop API](https://api.practicesoftwaretesting.com/api/documentation)
- - [Deck of Cards](https://deckofcardsapi.com/)
- - [JSON placeholder](https://jsonplaceholder.typicode.com/)
- - [http bin](http://httpbin.org/)
- - [rick and morty api](https://rickandmortyapi.com/documentation/#rest)
- - [Petstore](https://petstore.swagger.io/#/) 
- - [ServeRest](https://serverest.dev/#/)
- - [ServeRest - Datadog](https://p.datadoghq.eu/sb/421fcfee-35ec-11ee-b87f-da7ad0900005-2aaf85264a89d11b7001bcab452a266e?refresh_mode=sliding&theme=light&tpl_var_env%5B0%5D=serverest.dev&from_ts=1699931511294&to_ts=1699932411294&live=true)
+### APIs under test
+
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- [Toolshop API](https://api.practicesoftwaretesting.com/api/documentation)
+- [Deck of Cards](https://deckofcardsapi.com/)
+- [http bin](http://httpbin.org/)
+- [rick and morty api](https://rickandmortyapi.com/documentation/#rest)
+- [D&D Combat API](https://dnd-combat-api-7f3660dcecb1.herokuapp.com/api)
+- [Petstore](https://petstore.swagger.io/#/)
+- [ServeRest](https://serverest.dev/#/)
+
+### Docs
+
+- [PactumJS](https://pactumjs.github.io/)

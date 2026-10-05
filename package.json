@@ -1,5 +1,5 @@
 {
-  "name": "integration-tests-jest",
+  "name": "prova02-integration-test-rogerbalcevicz",
   "version": "1.0.0",
   "description": "API testing with a simple integration between JestJS and PactumJS.",
   "main": "index.js",
@@ -34,12 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ugioni/integration-tests-jest.git"
+    "url": "git+https://github.com/Roger-Balcevicz/prova02-integration-test-RogerBalcevicz.git"
   },
   "author": "leandro.ugioni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ugioni/integration-tests-jest/issues"
+    "url": "https://github.com/Roger-Balcevicz/prova02-integration-test-RogerBalcevicz/issues"
   },
-  "homepage": "https://github.com/ugioni/integration-tests-jest#readme"
+  "homepage": "https://github.com/Roger-Balcevicz/prova02-integration-test-RogerBalcevicz#readme"
 }
